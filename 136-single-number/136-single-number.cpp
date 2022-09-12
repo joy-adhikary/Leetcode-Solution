@@ -2,14 +2,13 @@ class Solution {
 public:
     int singleNumber(vector<int>& v) {
     
-        sort(v.begin(),v.end());
+        int ans=0;
         
-        for(int i=1;i<v.size();i+=2){
+        for(auto x:v){
             
-            if(v[i]!=v[i-1]){
-                return v[i-1];
-            }
+            ans=ans^x;
         }
-        return v[v.size()-1];
+        
+        return ans;
     }
 };
