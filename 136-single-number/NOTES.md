@@ -26,3 +26,4 @@ A^A=0
 A^B^A=B
 (A^A^B) = (B^A^A) = (A^B^A) = B This shows that position doesn't matter.
 Similarly , if we see , a^a^a......... (even times)=0 and a^a^a........(odd times)=a
+![1](https://user-images.githubusercontent.com/91140113/189640174-27932fcd-c6b2-408f-9894-c3cb5802cc96.png)
