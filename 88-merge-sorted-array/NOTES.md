@@ -25,5 +25,5 @@ now j=0 so loop break
 ​
 resultent array v1= 1 2 2 3 4
 
-![image](https://user-images.githubusercontent.com/91140113/190641521-f9c9d3fa-f40e-48ca-b97e-2d3d4ad93103.png)
-![image](https://user-images.githubusercontent.com/91140113/190641607-eb7c9572-7cfc-4af9-9b23-8ba39aa44e01.png)
+![image](https://user-images.githubusercontent.com/91140113/190641824-9aff164b-5c64-4a47-bd0f-48d00588a298.png)
+![image](https://user-images.githubusercontent.com/91140113/190641878-dbff7bf9-9123-4b14-9273-25ee9aac2bb2.png)
