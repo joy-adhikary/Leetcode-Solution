@@ -24,3 +24,6 @@ v1[k]=v2[j] , k-- , j--   1 pushed
 now j=0 so loop break
 ​
 resultent array v1= 1 2 2 3 4
+
+![image](https://user-images.githubusercontent.com/91140113/190641521-f9c9d3fa-f40e-48ca-b97e-2d3d4ad93103.png)
+![image](https://user-images.githubusercontent.com/91140113/190641607-eb7c9572-7cfc-4af9-9b23-8ba39aa44e01.png)
