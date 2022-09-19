@@ -3,23 +3,29 @@ public:
     int majorityElement(vector<int>& v)
     {
         
-       // way 1        time - O(n) space - O(n/2) ==> O( n )
+       // way 1    time - O(n) space - O(n/2) ==> O( n )
+        
+//         int n=v.size();
+//         unordered_map<int,int>m;
+        
+//         for(auto x:v)
+//         {
+//               m[x]++;
+            
+//             if(m[x]>n/2)
+//             {
+//                 return x;
+//             }
+//         }
+//   
+    
+      // way 2    time - O(nlogn) space - O(1) 
+        
+        // The majority element is the element that appears more than ⌊n / 2⌋ times.            so if i sort the whole array then the majority element will be in the mid            point as it appears more then n/2+1 
         
         int n=v.size();
-        
-        unordered_map<int,int>m;
-        
-        for(auto x:v)
-        {
-              m[x]++;
-            
-            if(m[x]>n/2)
-            {
-                return x;
-            }
-        }
-        return -1;
-    
+        sort(v.begin(),v.end());
+        return v[n/2];
         
     }
 };
