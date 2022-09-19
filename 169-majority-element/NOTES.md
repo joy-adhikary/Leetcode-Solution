@@ -8,3 +8,5 @@ The majority element is the element that appears more than ⌊n / 2⌋ times. so
 // way 3    time - O(n) space - O(1)
 ​
 look at the pic
+
+![image](https://user-images.githubusercontent.com/91140113/191054490-850d0d8a-80fc-4dd4-8707-12e456a40922.png)
