@@ -1,1 +1,1 @@
-​
+Key observation here is for making a palindrome with 2 words one of them should be reverse of the other. So use a hashmap and store the frequencies of string x and when you find a string y which is exactly reverse of any x present in map, pair it with one of them and decrease the count of x by 1 and increase the answer by 4. at last if you iterate through remaining strings in map and find a srting with both chars same like "aa" or "bb".... You can put this in the middle hence increasing your answer by 2.
